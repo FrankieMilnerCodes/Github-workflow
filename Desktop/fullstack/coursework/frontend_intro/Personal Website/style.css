@@ -1,0 +1,62 @@
+* {
+  background-color: #f4edea; /* Isabelline */
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.first_container {
+  width: 100%;
+  text-align: center;
+}
+
+.second_container {
+  width: 100%;
+}
+
+.right {
+  width: 30%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery > li {
+  flex-basis: 350px; /* width: 350px; */
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 100px;
+  text-align: center;
+}
+
+p2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 100px;
+  padding: 10px;
+}
+
+p3 {
+  background-color: red;
+}

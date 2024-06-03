@@ -1,0 +1,61 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.first_container {
+  background-color: rgb(60, 201, 244);
+  width: 33%;
+  height: 100px;
+}
+
+.second_container {
+  background-color: rgb(60, 201, 244);
+  width: 33%;
+  text-align: center;
+  padding: 20px;
+  font: italic bold 0.8em/1.2 Arial, sans-serif;
+}
+
+.third_container {
+  background-color: rgb(60, 201, 244);
+  width: 33%;
+}
+
+.fourth_container {
+  background-color: rgb(60, 201, 244);
+  width: 100%;
+  height: 300px;
+}
+
+.fifth_container {
+  background-color: rgb(132, 234, 132);
+  height: 10px;
+  width: 100%;
+}
+
+.sixth_container {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid white;
+  margin: 2rem;
+}
+
+@media (min-width: 320px) {
+}
+
+.eighth_container {
+  background-color: pink;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 600px;
+  z-index: -1;
+}
+
+a {
+  color: yellow !important;
+}

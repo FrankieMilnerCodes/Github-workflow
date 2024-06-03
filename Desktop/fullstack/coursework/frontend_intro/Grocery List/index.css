@@ -1,0 +1,59 @@
+/**/
+
+header {
+  font-size: 50px;
+  background-color: #bcc4d8;
+  color: #582c4d;
+  text-align: center;
+}
+
+h2 span {
+  background-color: #bcc4d8;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #39393a;
+}
+
+ol {
+  list-style-type: none;
+}
+
+img {
+  width: 30%;
+  float: right;
+  border: 5px solid black;
+}
+
+.meats {
+  background-color: #e2e488;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px dotted black;
+}
+
+.fruits {
+  background-color: #d5b9b2;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px dotted black;
+}
+
+.veggies {
+  background-color: #a26729;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px dotted black;
+}
+
+.dry_goods {
+  background-color: #582c4d;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px dotted black;
+}
